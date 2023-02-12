@@ -13,11 +13,23 @@ function Projects() {
     <div className='h-84 w-full flex justify-around mt-20'>
 
   <figure > <img src={shop} alt="" className='w-76 h-64 rounded  shadow-black shadow-xl'/>
-   <figcaption className='text-white font-bold '><button className='bg-black text-center px-2 py-2 text-centre rounded mt-4 hover:bg-blue-800 '>MY OWN SHOP UI</button></figcaption></figure>
+   <figcaption className='text-white font-bold '><a href="https://beamish-hummingbird-a259bc.netlify.app/" className="text-white" >
+   <button className='bg-black text-center px-2 py-2 text-centre rounded mt-4 hover:bg-blue-800 '>MY OWN SHOP UI</button></a>
+   </figcaption></figure>
+
    <figure><img src={clock} alt="" className='w-76 h-64 rounded shadow-black shadow-xl'/>
-   <figcaption className='text-white font-bold text-lg'><button className='bg-black text-center px-2 py-2 text-centre rounded mt-4 '>ANALOG CLOCK</button></figcaption></figure>
-   <figure><img src={orp} alt="" className='w-76 h-64 rounded shadow-black shadow-xl'/><figcaption className='text-white font-bold text-lg'><button className='bg-black text-center px-2 py-2 text-centre rounded mt-4 '>ORPHANGE WEBSITE </button></figcaption></figure>
-   <figure><img src={todo} alt="" className='w-76 h-64 rounded shadow-black shadow-xl'/><figcaption className='text-white font-bold text-lg'><button className='bg-black text-center px-2 py-2 text-centre rounded mt-4 '>TODO LIST</button></figcaption></figure>
+   <figcaption className='text-white font-bold text-lg'><a href="https://gorgeous-taffy-baafa2.netlify.app" className="text-white">
+   <button className='bg-black text-center px-2 py-2 text-centre rounded mt-4 '>ANALOG CLOCK</button></a>
+   </figcaption></figure>
+
+   <figure><img src={orp} alt="" className='w-76 h-64 rounded shadow-black shadow-xl'/>
+   <figcaption className='text-white font-bold text-lg'><a href="https://clever-puppy-d660e9.netlify.app/" className="text-white">
+   <button className='bg-black text-center px-2 py-2 text-centre rounded mt-4 '>ORPHANGE WEBSITE </button></a>
+   </figcaption></figure>
+
+   <figure><img src={todo} alt="" className='w-76 h-64 rounded shadow-black shadow-xl'/>
+   <figcaption className='text-white font-bold text-lg'><a href="https://gorgeous-taffy-baafa2.netlify.app/" className="text-white">
+   <button className='bg-black text-center px-2 py-2 text-centre rounded mt-4 '>TODO LIST</button></a></figcaption></figure>
     </div>
     
     </div>

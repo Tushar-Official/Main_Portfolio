@@ -7,7 +7,7 @@ import {FaBars} from 'react-icons/fa'
 
 function UpNavbar() {
   return (
-    <div className='border-black border-2 flex justify-between px-4 w-screen bg-black fixed-top'>
+    <div className=' flex justify-between px-4 w-screen bg-black fixed-top'>
     <div className=' ml-2 pt-2 text-white'><h1 className='text-6xl'>TUSHAR</h1></div>
     <div className='hidden md:flex'>
     <ul className=' flex justify-between pt-3 text-white'>
