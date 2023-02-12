@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
   return (
-    <div className="h-full w-full  pb-20 pl-80 bg-blue-100">
+    <div id="Home" className="h-full w-full  pb-20 pl-80 bg-blue-100">
     <div className='w-1/2 pt-10 '>
     <h3 className=' text-black font-bold text-5xl mt-20'>ABOUT</h3>
     <br/>

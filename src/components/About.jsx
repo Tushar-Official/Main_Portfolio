@@ -5,7 +5,7 @@ import PDF from './Tushar_KumarResume.pdf'
 
 function About() {
  return (
-    <div className='h-screen w-full flex justify-end bg-gradient-to-b from-cyan-50 to-blue-100'>
+    <div id="About" className='h-screen w-full flex justify-end bg-gradient-to-b from-cyan-50 to-blue-100'>
     <div className=' pt-10 pl-80 ml-20 left mt-24 w-1/2 flex-col items-end'>
     
     <h2 className='font-bold mt-2 text-6xl text-gray-800'> I'm a FRONTEND<br/>DEVELOPER</h2>

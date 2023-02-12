@@ -8,7 +8,7 @@ import orp from '../images/orphan.png'
 
 function Projects() {
   return (
-    <div className='h-full  bg-gradient-to-b from-cyan-100 to-blue-100 pb-10 pl-10 pr-10'>
+    <div id="Projects" className='h-full  bg-gradient-to-b from-blue-100 to-blue-100 pb-10 pl-10 pr-10'>
     <h3 className='font-bold text-5xl text-center pt-10 text-black'> PROJECTS </h3>
     <div className='h-84 w-full flex justify-around mt-20'>
 

@@ -8,7 +8,7 @@ import sql from '../images/sql.webp'
 
 function Skills() {
   return (
-    <div className='h-full bg-gradient-to-b from-blue-100 to-cyan-200'>
+    <div id="Skills" className='h-full bg-gradient-to-b from-blue-100 to-sky-100'>
     <h4 className='font-bold text-black text-center pl-10  pt-16 text-5xl'>SKILLS</h4>
   <div className='h-full grid grid-rows-2 grid-flow-col justify-center mt-10 pb-20'>
   <img src={react} alt="" className='h-48 w-48 rounded-full mt-8 ml-16 mr-16 shadow-black shadow-xl border-white border-2'/>

@@ -7,7 +7,7 @@ import {SiAccenture} from 'react-icons/si'
 
 function Education() {
   return (
-    <div className='h-full pb-10 bg-gradient-to-b from-sky-100 to-blue-500'>
+    <div id="Education" className='h-full pb-10 bg-gradient-to-b from-sky-100 to-blue-500'>
     <h5 className='font-bold text-5xl text-black text-center pt-20'>EDUCATION </h5>
     <br/>
     <VerticalTimeline lineColor='#000 '>

@@ -11,17 +11,22 @@ import Contact from './components/Contact';
 import Footer from './components/Footer'
 
 
-
 function App() {
   return (
     <div className="App ">
-      <Navbar/>
-      <About/>
-      <Home/>
+  
+   
+    <Navbar/>
+     
+      
+     <About/>
+     <Home/>
       <Projects/>
       <Skills/>
       <Education/>
       <Contact/>
+      
+   
       <Footer/>
     
       
