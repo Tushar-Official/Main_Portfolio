@@ -5,9 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Great+Vibes&family=Lobster&family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Great+Vibes&family=Italianno&family=Lobster&family=Roboto:wght@500&display=swap');
 @layer base{
-    body{
+    .app{
        
             scroll-behavior: smooth;
+            
          }
     li{
         @apply px-4;
@@ -21,7 +22,7 @@
     }
     
     p{
-        font-weight: 400;
+        font-weight: 600;
         
     }
    html{

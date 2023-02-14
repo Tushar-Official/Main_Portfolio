@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Contact = () => {
   return (
     <div name='Contact' id="Contact" className='w-full h-full bg-gradient-to-b from-black to-gray-500 p-4 text-white'>
@@ -19,6 +20,7 @@ const Contact = () => {
                 </form>
             </div>
         </div>
+       
     </div>
   )
 }

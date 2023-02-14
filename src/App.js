@@ -8,18 +8,18 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import Contact from './components/Contact';
-import Footer from './components/Footer'
+import Social from './components/Social';
+
 
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App  ">
   
    
     <Navbar/>
-     
-      
      <About/>
+    <Social/>
      <Home/>
       <Projects/>
       <Skills/>
@@ -27,7 +27,7 @@ function App() {
       <Contact/>
       
    
-      <Footer/>
+ 
     
       
     </div>
