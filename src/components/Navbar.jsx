@@ -21,11 +21,11 @@ function UpNavbar() {
     <ul className=' flex justify-between pt-3 text-black '>
 
    <li className='text-xl'>
-   <a href="#About" onClick={()=>Slide("#About")} className="decoration-transparent hover:text-black font-lighter text-white  ">
+   <a href="#About" onClick={()=>Slide("#About")} className="decoration-transparent font-lighter text-white  ">
   Home</a>
    </li>
     <li><a href="#Home"
-     onClick={()=>Slide("#Home")} className="decoration-transparent hover:text-black font-lighter text-white">
+     onClick={()=>Slide("#Home")} className="decoration-transparent  font-lighter text-white">
     About
     </a>
     </li>
@@ -35,11 +35,11 @@ function UpNavbar() {
    </a>
     </li>
     <li><a href="#Skills"
-    onClick={()=>Slide("#Skills")} className="decoration-transparent hover:text-black font-lighter text-white ">
+    onClick={()=>Slide("#Skills")} className="decoration-transparent  font-lighter text-white ">
   Skills</a>
     </li>
     <li><a href="#Education"
-    onClick={()=>Slide("#Education")} className="decoration-transparent hover:text-black font-lighter text-white">
+    onClick={()=>Slide("#Education")} className="decoration-transparent font-lighter text-white">
     Education</a>
     </li>
     <li> <a href="#Contact"
