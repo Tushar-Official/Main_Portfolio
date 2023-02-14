@@ -8,8 +8,8 @@ function Home() {
     <br/>
     
     
-    <p className='text-xl font-semibold text-black mt-4  '>Hi, I am Tushar kumar</p>
-    <p className='text-xl font-semibold text-black '>I am a Dynamic and skilled individual with a passion for software development
+    
+    <p className='text-xl mt-2 font-semibold text-black '>I am a Dynamic and skilled individual with a passion for software development
     I possess a unique blend of technical expertise and passion for software development. 
     With a strong foundation in HTML, CSS, JavaScript, ReactJS and SQL,
      I am confident in my ability to bring value to any software development project. 

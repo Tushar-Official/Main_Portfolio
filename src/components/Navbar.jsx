@@ -15,35 +15,35 @@ function UpNavbar() {
 
   }
   return (
-    <div className=' flex justify-between px-4  bg-indigo-500'>
-    <div className=' ml-2 pt-2 text-black'><h1 className='text-6xl font-semibold text-white'>TUSHAR</h1></div>
+    <div className=' flex justify-between px-4 fixed-top  bg-indigo-500'>
+    <div className=' ml-2 pt-2 text-black'><h1 className='text-6xl font-lighter text-white'>TUSHAR</h1></div>
     <div className='hidden md:flex'>
     <ul className=' flex justify-between pt-3 text-black '>
 
-   <li className='text-lg'>
-   <a href="#About" onClick={()=>Slide("#About")} className="decoration-transparent hover:text-black font-semibold text-white  ">
+   <li className='text-xl'>
+   <a href="#About" onClick={()=>Slide("#About")} className="decoration-transparent hover:text-black font-lighter text-white  ">
   Home</a>
    </li>
     <li><a href="#Home"
-     onClick={()=>Slide("#Home")} className="decoration-transparent hover:text-black font-semibold text-white">
+     onClick={()=>Slide("#Home")} className="decoration-transparent hover:text-black font-lighter text-white">
     About
     </a>
     </li>
     <li><a href="#Projects"
-     onClick={()=>Slide("#Projects")} className="decoration-transparent font-semibold text-white">
+     onClick={()=>Slide("#Projects")} className="decoration-transparent font-lighter text-white">
    Projects
    </a>
     </li>
     <li><a href="#Skills"
-    onClick={()=>Slide("#Skills")} className="decoration-transparent hover:text-black font-semibold text-white ">
+    onClick={()=>Slide("#Skills")} className="decoration-transparent hover:text-black font-lighter text-white ">
   Skills</a>
     </li>
     <li><a href="#Education"
-    onClick={()=>Slide("#Education")} className="decoration-transparent hover:text-black font-semibold text-white">
+    onClick={()=>Slide("#Education")} className="decoration-transparent hover:text-black font-lighter text-white">
     Education</a>
     </li>
     <li> <a href="#Contact"
-    onClick={()=>Slide("#Contact")} className="decoration-transparent hover:text-black font-semibold text-white">
+    onClick={()=>Slide("#Contact")} className="decoration-transparent hover:text-black font-lighter text-white">
     Contact</a>
     </li>
 
