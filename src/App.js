@@ -9,6 +9,7 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Contact from './components/Contact';
 import Social from './components/Social';
+import Shimmer from './components/Shimmer';
 
 
 
@@ -26,6 +27,7 @@ function App() {
       <Skills/>
       <Education/>
       <Contact/>
+      <Shimmer/>
       
    
  
