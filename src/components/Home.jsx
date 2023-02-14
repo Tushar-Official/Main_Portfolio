@@ -7,7 +7,7 @@ function Home() {
     <h3 className=' text-black font-bold text-5xl mt-20'>ABOUT</h3>
     <br/>
     
-    
+    <h2 className=' h-full font-bold  text-xl text-black'> Hello, I'm Tushar Kumar</h2>
     
     <p className='text-xl mt-2 font-semibold text-black '>I am a Dynamic and skilled individual with a passion for software development
     I possess a unique blend of technical expertise and passion for software development. 
