@@ -1,4 +1,4 @@
-
+import React from 'react'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
@@ -9,31 +9,25 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Contact from './components/Contact';
 import Social from './components/Social';
-import Shimmer from './components/Shimmer';
-
-
 
 
 function App() {
-  return (
-    <div className="App  ">
+
   
-   
-    <Navbar/>
-     <About/>
-    <Social/>
-     <Home/>
-      <Projects/>
-      <Skills/>
-      <Education/>
-      <Contact/>
-      <Shimmer/>
-      
-   
- 
     
-      
-    </div>
+    return (
+    
+      <div className="App  ">
+     <Navbar/>
+       <About/>
+      <Social/>
+       <Home/>
+        <Projects/>
+        <Skills/>
+        <Education/>
+        <Contact/>
+       </div>
+    
   );
 }
 
