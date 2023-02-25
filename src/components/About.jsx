@@ -1,6 +1,6 @@
 import React from 'react'
 import me from '../images/00.jpg'
-import PDF from './Tushar_KumarResume.pdf'
+import PDF from './tusharkumar_resume.pdf'
 
 
 function About() {
