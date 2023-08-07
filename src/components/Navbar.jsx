@@ -15,7 +15,7 @@ function UpNavbar() {
 
   }
   return (
-    <div className=' flex justify-between px-4 fixed-top   bg-indigo-500'>
+    <div className=' flex justify-between px-4 fixed-top bg-blue-900'>
     <div className=' ml-2 pt-2 text-black'><h1 className='text-6xl font-lighter text-white'>TUSHAR</h1></div>
     <div className=' '>
     <ul className=' flex justify-between pt-3 text-black '>

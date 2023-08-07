@@ -9,12 +9,16 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Contact from './components/Contact';
 import Social from './components/Social';
+import { animateScroll as scroll } from 'react-scroll'; 
 
 
 function App() {
-
+ 
   
-    
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  }
+
     return (
     
       <div className="App  ">
@@ -26,6 +30,12 @@ function App() {
         <Skills/>
         <Education/>
         <Contact/>
+       {
+        <button onClick={scrollToTop} className="fixed bottom-10 right-10 bg-blue-500 font-semibold text-white p-2 rounded-full">
+        Scroll to Top
+      </button>
+    
+       }
        </div>
     
   );

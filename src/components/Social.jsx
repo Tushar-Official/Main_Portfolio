@@ -7,7 +7,7 @@ import {FaPhone} from 'react-icons/fa'
 function Social() {
   return (
     <div className='bg-indigo-200  '>
-    <div className=' flex justify-center group pt-2 pb-20'>
+    <div className=' flex justify-center group pt-2 pb-20 bg-indigo-100'>
 
     <a href="https://www.linkedin.com/in/tushar-kumar-7a900218a/">
     <GrLinkedinOption className='w-12 h-12 mr-4  rounded px-1 py-1 text-white text-whitetransition ease-in-out delay-150 bg-blue-700 hover:-translate-y-1   text-grey cursor-pointer hover:bg-blue-900 shadow-black shadow-xl hover:scale-110  '/>

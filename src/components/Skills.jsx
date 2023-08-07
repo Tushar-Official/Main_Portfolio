@@ -1,7 +1,7 @@
 import React from 'react'
 
-import {FaReact,FaHtml5,FaCss3,FaBootstrap,FaGithub,FaLinux,FaAws} from 'react-icons/fa'
-import {SiJavascript,SiTailwindcss} from 'react-icons/si'
+import {FaReact,FaHtml5,FaBootstrap,FaGithub,FaLinux} from 'react-icons/fa'
+import {SiJavascript,SiTailwindcss,SiRedux} from 'react-icons/si'
 import {AiOutlineConsoleSql} from 'react-icons/ai'
 function Skills() {
   return (
@@ -28,10 +28,7 @@ function Skills() {
   <h5 className='text-l text-center font-bold pl-2'>HTML</h5>
   </div>
 
-    <div className='w-36 h-36  border-4 hover:bg-white  hover:text-blue-500 border-blue-900 rounded px-2 py-2 shadow-black shadow-xl hover:scale-110'>
-  <FaCss3 className=' w-32 h-24 '/>
-  <h5 className='text-l font-bold text-center '>CSS</h5>
-  </div>
+   
     <div className='w-36 h-36  border-4 hover:bg-white hover:text-sky-500  border-blue-900 rounded  px-2 py-2 shadow-black shadow-xl hover:scale-110'>
   <SiTailwindcss className='w-32 h-24'/>
   <h5 className='text-l font-bold text-center '>Tailwind CSS</h5>
@@ -52,10 +49,10 @@ function Skills() {
   <div className='w-36 h-36  border-4 hover:bg-white grid gri-col-2 justify-center  hover:text-purple-600 border-blue-900 rounded px-2 py-2 shadow-black shadow-xl hover:scale-110'>
   <AiOutlineConsoleSql className=' w-32 h-24 '/><h5 className='text-l font-bold text-center '>SQL</h5>
   </div>
-
-  <div className='w-36 h-36  border-4 hover:bg-white justify-center grid gri-col-2   hover:text-yellow-600 border-blue-900 rounded px-2 py-2 shadow-black shadow-xl hover:scale-110'>
-  <FaAws className=' w-24 h-24 '/><h5 className='text-l font-bold text-center '>AWS</h5>
+  <div className='w-36 h-36  border-4 hover:bg-white grid gri-col-2 justify-center  hover:text-purple-600 border-blue-900 rounded px-2 py-2 shadow-black shadow-xl hover:scale-110'>
+  <SiRedux className=' w-32 h-24 '/><h5 className='text-l font-bold text-center '>REDUX </h5>
   </div>
+  
   
   </div>
 </div>
